@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import { Contact } from './component/contact';
+
+
+
+// Q2: Real world problem 
+// Write a responsive “Contacts” application that allows the user to browse their contacts:
+// •	Make use of https://jsonplaceholder.typicode.com/ (/users are the contacts)
+// •	Use either VueJS, Angular or React
+// •	Make it visually appealing
+// •	No need to implement Create/Update/Delete
+// •	Provide instructions on how to run the code
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Contact />
     </div>
   );
 }
